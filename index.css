@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Merienda', cursive;
+}
+
+body{
+  background-color: #b3e6ff;
+}
+  
+.container-conversor{
+   max-width: 600px;
+  margin: 0 auto;
+   text-align: center;
+   padding: 50px;
+   border-radius: 10px;
+
+}
+  
+h1{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+  
+input{
+  font-size: 24px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+}
+input[type='number']::placeholder{
+  text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
+button{
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+p{
+  font-size: 36px;
+  margin-top: 30px;
+}
